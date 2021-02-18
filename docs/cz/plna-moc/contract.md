@@ -1,9 +1,11 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 <script>function getval(sel){
 	if (sel.value === "1") {
-		ucel.textContent = "aby za mňa podal/a žiadosť o vystavenie duplikátu rodného listu a prevzal/a duplikát rodného listu."
+		ucel.textContent = "ve věci vydání všech matričních dokladů, zejména rodného listu, oddacího listu, úmrtního listu, dokladu o registrovaném partnerství), nahlédnutí do matriční knihy, k získaní výpisu z ní v přítomnosti matrikáře (plná moc musí být úředně ověřena podle § 25 odst. 8 zákona č. 301/2000 Sb. o matrikách, jménu a příjmení)"
 	} else if (sel.value === "2") {
-		ucel.textContent = "ine"
+		ucel.textContent = "ve věci vydání výpisu Rejstříku trestů České republiky, k podání žádosti/í a převzetí 1 ks výpisu/ů z rejstříku trestů."
+	} else if (sel.value === "š") {
+		ucel.textContent = "ve věci vydání výpisu Rejstříku trestů České republiky, přičemž výpis Rejstříku trestů má obsahovat informace z evidence rejstříku trestů jiného členského státu Evropské unie, ve kterém zmocnitel měl nebo má bydliště nebo jehož byl státním příslušníkem."
 	} else {
 		ucel.textContent = ""
 	}
@@ -23,6 +25,11 @@
 Zmocnitelem je fyzická osoba
 
 <input type="text" size="40" placeholder="Jméno a příjmení"/>
+roz. <input type="text" size="40" placeholder="Rodné příjmení"/>
+
+občanství. <input type="text" size="40" placeholder="občanství"/> 
+typ dokladu <input type="text" size="5" placeholder="typ"/> 
+číslo dokladu <input type="text" size="5" placeholder="typ"/>
 
 <input type="text" size="15" placeholder="Datum narození"/>
 
@@ -49,13 +56,13 @@ Zmocněncem je fyzická osoba
 
 (dále jako „**Zmocněnec**“)
 
-Zmocnitel tímto zmocňuje Zmocněnece, v soudladu s § 33 odst. 2 zákona č. 500/2004 Sb. správní řád, k tomu, aby ho zastupoval:
+Zmocnitel tímto zmocňuje Zmocněnece, k tomu, aby ho zastupoval:
 
 <select class="no-print" onchange="getval(this);">
   <option selected>vyber</option>
-  <option value="1">Rodny list</option>
-  <option value="2">Two</option>
-  <option value="3">Three</option>
+  <option value="1">Matriční doklady</option>
+  <option value="2">Výpis z RT</option>
+  <option value="3">Výpis z RT zahraničí</option>
 </select>
 
 <ul>
@@ -78,8 +85,6 @@ dne <input type="text" size="15" placeholder="dátum"/>.
 
 <br/><br/><input type="text" size="40" placeholder="Meno a priezvisko"/>
 
-
-
 Zmocnitel
 
 
@@ -90,12 +95,8 @@ Tuto plnou moc v plném rozsahu přijímám.
 
 V <input type="text" size="40" placeholder="mesto"/>,
 dne <input type="text" size="15" placeholder="dátum"/>.
+
 <br/><br/><input type="text" size="40" placeholder="Meno a priezvisko"/>
 
 Zmocněnec
-
-
-## Poznámky
-
-<a name="https://www.zakonyprolidi.cz/cs/2000-301#p25-8">1</a>: Nutné úředně ověřit.
 
