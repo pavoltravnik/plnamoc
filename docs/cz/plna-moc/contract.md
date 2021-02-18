@@ -31,7 +31,7 @@ rozený/á <input type="text" size="20" placeholder="Rodné příjmení"/>
 
 Občanství <input type="text" size="20" placeholder="občanství"/> 
 typ dokladu <input type="text" size="5" placeholder="typ"/> 
-číslo dokladu <input type="text" size="10" placeholder="typ"/>
+číslo dokladu <input type="text" size="10" placeholder="číslo"/>
 
 Narozený: <input type="text" size="15" placeholder="Datum narození"/>
 
