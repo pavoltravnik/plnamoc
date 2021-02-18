@@ -3,9 +3,9 @@
 	if (sel.value === "1") {
 		ucel.textContent = "ve věci vydání všech matričních dokladů, zejména rodného listu, oddacího listu, úmrtního listu, dokladu o registrovaném partnerství), nahlédnutí do matriční knihy, k získaní výpisu z ní v přítomnosti matrikáře (plná moc musí být úředně ověřena podle § 25 odst. 8 zákona č. 301/2000 Sb. o matrikách, jménu a příjmení)"
 	} else if (sel.value === "2") {
-		ucel.textContent = "ve věci vydání výpisu Rejstříku trestů České republiky, k podání žádosti/í a převzetí 1 ks výpisu/ů z rejstříku trestů."
+		ucel.textContent = "ve věci vydání výpisu Rejstříku trestů České republiky, k podání žádosti/í a převzetí 1 ks výpisu/ů z rejstříku trestů. (plná moc musí být úředně ověřena)"
 	} else if (sel.value === "3") {
-		ucel.textContent = "ve věci vydání výpisu Rejstříku trestů České republiky, přičemž výpis Rejstříku trestů má obsahovat informace z evidence rejstříku trestů jiného členského státu Evropské unie, ve kterém zmocnitel měl nebo má bydliště nebo jehož byl státním příslušníkem."
+		ucel.textContent = "ve věci vydání výpisu Rejstříku trestů České republiky, přičemž výpis Rejstříku trestů má obsahovat informace z evidence rejstříku trestů jiného členského státu Evropské unie, ve kterém zmocnitel měl nebo má bydliště nebo jehož byl státním příslušníkem. (plná moc musí být úředně ověřena)"
 	} else if (sel.value === "4") {
 		ucel.textContent = "ve věci získaní potvrzení o dosaženém vzdělání a to včetně kopie diplomu na škole nebo univerzitě, na které zmocnitel studoval."
 	} else {
