@@ -1,3 +1,3 @@
-# Crypto weddings
+# Paraguay
 
 - [SK - version](https://paralelnapolis.github.io/tameMe/sk/)
