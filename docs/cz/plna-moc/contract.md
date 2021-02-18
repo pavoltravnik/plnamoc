@@ -1,20 +1,21 @@
-<!-- Required meta tags -->
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<!-- Bootstrap CSS -->
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
-
-<style>select option{
-  width:200px;
-  height: auto;
-  word-wrap: break-word;
-  white-space: normal;
-}
-select{
-  height: 220px;
-  width:250px;
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<script>function getval(sel){
+	if (sel.value === "1") {
+  	$("p").text("aby za mňa podal/a žiadosť o vystavenie duplikátu rodného listu a prevzal/a duplikát rodného listu.");
+  } else if (sel.value === "2") {
+    $("p").text("Nieco ine");
+  } else {
+  	$("p").text('');
+  }
+}</script>
+<style>@media print
+{    
+    .no-print, .no-print *
+    {
+        display: none !important;
+    }
 }</style>
+
 
 # PLNÁ MOC
 
@@ -40,19 +41,15 @@ E-mail:
 
 Zmocnitel tímto zmocňuje Zmocněnece, v soudladu s § 33 odst. 2 zákona č. 500/2004 Sb. správní řád, k tomu, aby ho zastupoval:
 
-<select class="form-select form-select-lg mb-3" aria-label=".form-select-lg example">
-  <option selected><div>aby za mňa podal/a žiadosť o vystavenie duplikátu rodného listu a prevzal/a duplikát rodného listu. <sup>[1](https://www.zakonyprolidi.cz/cs/2000-301#p25-8)</sup></div></option>
-  <option value="1">One</option>
+<select class="no-print" onchange="getval(this);">
+  <option selected>vyber</option>
+  <option value="1">Rodny list</option>
   <option value="2">Two</option>
   <option value="3">Three</option>
 </select>
 
-<select>
-    <option><div class="po">1 .-Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500</div></option>
-    <option><div class="po">2 .-Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500</div></option>
-    <option><div class="po">3 .-Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500</div></option>
-    
-</select>
+<p>nothing</p>
+
 
 Tato plná moc se uděluje na dobu určitou, a to do ...... .
 
