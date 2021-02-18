@@ -36,12 +36,17 @@ Zmocnitelem je fyzická osoba
 
 Zmocněncem je fyzická osoba
 
-Jméno:
-Datum narození:
-Rodné číslo: 
-Bydliště: 
-Telefon: 
-E-mail: 
+
+<input type="text" size="40" placeholder="Jméno a příjmení"/>
+
+<input type="text" size="15" placeholder="Datum narození"/>
+
+<input type="text" size="15" placeholder="Rodné číslo"/>
+
+<input type="text" size="40" placeholder="Adresa"/>
+
+<input type="text" size="40" placeholder="Město a PSČ"/>
+
 (dále jako „**Zmocněnec**“)
 
 Zmocnitel tímto zmocňuje Zmocněnece, v soudladu s § 33 odst. 2 zákona č. 500/2004 Sb. správní řád, k tomu, aby ho zastupoval:
@@ -53,7 +58,6 @@ Zmocnitel tímto zmocňuje Zmocněnece, v soudladu s § 33 odst. 2 zákona č. 5
   <option value="3">Three</option>
 </select>
 
-<p id="ucel"></p>
 <ul>
   <li id="ucel"></li>
 </ul>
