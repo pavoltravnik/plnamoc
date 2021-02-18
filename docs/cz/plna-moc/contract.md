@@ -22,9 +22,9 @@ E-mail:
 
 Zmocnitel tímto zmocňuje Zmocněnece, v soudladu s § 33 odst. 2 zákona č. 500/2004 Sb. správní řád, k tomu, aby ho zastupoval:
 
-<link href="bootstrap.min.css" rel="stylesheet">
+<link href="/bootstrap.min.css" rel="stylesheet">
 
-<script src="bootstrap.bundle.min.js"></script>
+<script src="/bootstrap.bundle.min.js"></script>
 
 <div class="dropdown">
   <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
