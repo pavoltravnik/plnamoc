@@ -22,13 +22,17 @@
 
 Zmocnitelem je fyzická osoba
 
-Jméno:
-Datum narození:
-Rodné číslo:
-Bydliště: 
-Telefon: 
-E-mail: 
-(dále jako „Zmocnitel“)
+<input type="text" size="40" placeholder="Jméno a příjmení"/>
+
+<input type="text" size="15" placeholder="Datum narození"/>
+
+<input type="text" size="15" placeholder="Rodné číslo"/>
+
+<input type="text" size="40" placeholder="Adresa"/>
+
+<input type="text" size="40" placeholder="Město a PSČ"/>
+
+(dále jako „**Zmocnitel**“)
 
 Zmocněncem je fyzická osoba
 
@@ -38,7 +42,7 @@ Rodné číslo:
 Bydliště: 
 Telefon: 
 E-mail: 
-(dále jako „Zmocněnec“)
+(dále jako „**Zmocněnec**“)
 
 Zmocnitel tímto zmocňuje Zmocněnece, v soudladu s § 33 odst. 2 zákona č. 500/2004 Sb. správní řád, k tomu, aby ho zastupoval:
 
@@ -50,6 +54,9 @@ Zmocnitel tímto zmocňuje Zmocněnece, v soudladu s § 33 odst. 2 zákona č. 5
 </select>
 
 <p id="ucel"></p>
+<ul>
+  <li id="ucel"></li>
+</ul>
 
 
 Tato plná moc se uděluje na dobu určitou, a to do ...... .
@@ -62,7 +69,12 @@ Zmocněnec má zejména právo podávat žádosti, nahlížet do spisu, přebír
 
 
 
-V ......, dne ...... .
+V <input type="text" size="40" placeholder="mesto"/>,
+dne <input type="text" size="15" placeholder="dátum"/>.
+
+<br/><br/><input type="text" size="40" placeholder="Meno a priezvisko"/>
+
+
 
 Zmocnitel
 
@@ -72,8 +84,9 @@ Zmocnitel
 Tuto plnou moc v plném rozsahu přijímám.
 
 
-
-V ......, dne ...... .
+V <input type="text" size="40" placeholder="mesto"/>,
+dne <input type="text" size="15" placeholder="dátum"/>.
+<br/><br/><input type="text" size="40" placeholder="Meno a priezvisko"/>
 
 Zmocněnec
 
