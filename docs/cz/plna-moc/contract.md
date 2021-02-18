@@ -23,17 +23,11 @@ E-mail:
 Zmocnitel tímto zmocňuje Zmocněnece, v soudladu s § 33 odst. 2 zákona č. 500/2004 Sb. správní řád, k tomu, aby ho zastupoval:
 
   <select name="cars" id="cars">
-    <option value="volvo">Volvo</option>
+    <option value="volvo">aby za mňa podal/a žiadosť o vystavenie duplikátu rodného listu a prevzal/a duplikát rodného listu. <sup>[1](https://www.zakonyprolidi.cz/cs/2000-301#p25-8)</sup></option>
     <option value="saab">Saab</option>
     <option value="opel">Opel</option>
     <option value="audi">Audi</option>
   </select>
-
-1. aby za mňa podal/a žiadosť o vystavenie duplikátu rodného listu a prevzal/a duplikát rodného listu. <sup>[1](https://www.zakonyprolidi.cz/cs/2000-301#p25-8)</sup>
-
-2. 
-3. 
-
 
 Tato plná moc se uděluje na dobu určitou, a to do ...... .
 
