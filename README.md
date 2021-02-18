@@ -1,4 +1,4 @@
-# tameMe
-Crypto weddings 🦊🌹
+# plna moc
+Plna moc
 
-[Official page](https://paralelnapolis.github.io/tameMe/)
+[Official page](https://pavoltravnik.github.io/plnamoc/)
