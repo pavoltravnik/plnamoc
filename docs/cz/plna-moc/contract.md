@@ -1,13 +1,14 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 <script>function getval(sel){
 	if (sel.value === "1") {
-  	$("p").text("aby za mňa podal/a žiadosť o vystavenie duplikátu rodného listu a prevzal/a duplikát rodného listu.");
-  } else if (sel.value === "2") {
-    $("p").text("Nieco ine");
-  } else {
-  	$("p").text('');
-  }
-}</script>
+		ucel.textContent = "aby za mňa podal/a žiadosť o vystavenie duplikátu rodného listu a prevzal/a duplikát rodného listu."
+	} else if (sel.value === "2") {
+		ucel.textContent = "ine"
+	} else {
+		ucel.textContent = ""
+	}
+}
+</script>
 <style>@media print
 {    
     .no-print, .no-print *
@@ -48,7 +49,7 @@ Zmocnitel tímto zmocňuje Zmocněnece, v soudladu s § 33 odst. 2 zákona č. 5
   <option value="3">Three</option>
 </select>
 
-<p>nothing</p>
+<p id="ucel"></p>
 
 
 Tato plná moc se uděluje na dobu určitou, a to do ...... .
