@@ -65,7 +65,7 @@ Zmocnitel tímto zmocňuje Zmocněnece, k tomu, aby ho zastupoval:
   <option value="1">Matriční doklady</option>
   <option value="2">Výpis z RT</option>
   <option value="3">Výpis z RT zahraničí</option>
-  <option value="3">Diplom</option>
+  <option value="4">Diplom</option>
 </select>
 
 <ul>
