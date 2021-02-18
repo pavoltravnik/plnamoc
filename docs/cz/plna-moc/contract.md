@@ -20,9 +20,9 @@ Telefon:
 E-mail: 
 (dále jako „Zmocněnec“)
 
-Zmocnitel tímto zmocňuje Zmocněnece, v soudladu s § 33 odst. 2 písm. a) a písm b) zákona č. 500/2004 Sb. správní řád, k tomu, aby ho zastupoval:
+Zmocnitel tímto zmocňuje Zmocněnece, v soudladu s § 33 odst. 2 zákona č. 500/2004 Sb. správní řád, k tomu, aby ho zastupoval:
 
-1. 
+1. aby za mňa podal/a žiadosť o vystavenie duplikátu rodného listu a prevzal/a duplikát rodného listu. [^1]
 2. 
 3. 
 
@@ -51,3 +51,6 @@ Tuto plnou moc v plném rozsahu přijímám.
 V ......, dne ...... .
 
 Zmocněnec
+
+
+[^1]: Nutné úředně ověřit. 	https://www.zakonyprolidi.cz/cs/2000-301#p25-8
