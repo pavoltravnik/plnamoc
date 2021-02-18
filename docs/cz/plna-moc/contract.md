@@ -22,6 +22,7 @@ E-mail:
 
 Zmocnitel tímto zmocňuje Zmocněnece, v soudladu s § 33 odst. 2 zákona č. 500/2004 Sb. správní řád, k tomu, aby ho zastupoval:
 
+<link href="/plnamoc/jquery-3.5.1.min.js" rel="stylesheet">
 <link href="/plnamoc/bootstrap.min.css" rel="stylesheet">
 <script src="/plnamoc/bootstrap.bundle.min.js" type="text/javascript"></script>
 
