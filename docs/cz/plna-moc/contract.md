@@ -22,7 +22,8 @@ E-mail:
 
 Zmocnitel tímto zmocňuje Zmocněnece, v soudladu s § 33 odst. 2 zákona č. 500/2004 Sb. správní řád, k tomu, aby ho zastupoval:
 
-1. aby za mňa podal/a žiadosť o vystavenie duplikátu rodného listu a prevzal/a duplikát rodného listu. ([^1])
+1. aby za mňa podal/a žiadosť o vystavenie duplikátu rodného listu a prevzal/a duplikát rodného listu. <sup>[1](https://www.zakonyprolidi.cz/cs/2000-301#p25-8)</sup>
+
 2. 
 3. 
 
@@ -53,4 +54,5 @@ V ......, dne ...... .
 Zmocněnec
 
 
-[^1]: https://www.zakonyprolidi.cz/cs/2000-301#p25-8
+<a name="https://www.zakonyprolidi.cz/cs/2000-301#p25-8">1</a>: Nutné úředně ověřit.
+
