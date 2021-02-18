@@ -4,8 +4,10 @@
 		ucel.textContent = "ve věci vydání všech matričních dokladů, zejména rodného listu, oddacího listu, úmrtního listu, dokladu o registrovaném partnerství), nahlédnutí do matriční knihy, k získaní výpisu z ní v přítomnosti matrikáře (plná moc musí být úředně ověřena podle § 25 odst. 8 zákona č. 301/2000 Sb. o matrikách, jménu a příjmení)"
 	} else if (sel.value === "2") {
 		ucel.textContent = "ve věci vydání výpisu Rejstříku trestů České republiky, k podání žádosti/í a převzetí 1 ks výpisu/ů z rejstříku trestů."
-	} else if (sel.value === "š") {
+	} else if (sel.value === "3") {
 		ucel.textContent = "ve věci vydání výpisu Rejstříku trestů České republiky, přičemž výpis Rejstříku trestů má obsahovat informace z evidence rejstříku trestů jiného členského státu Evropské unie, ve kterém zmocnitel měl nebo má bydliště nebo jehož byl státním příslušníkem."
+	} else if (sel.value === "4") {
+		ucel.textContent = "ve věci získaní potvrzení o dosaženém vzdělání a to včetně kopie diplomu na škole nebo univerzitě, na které zmocnitel studoval."
 	} else {
 		ucel.textContent = ""
 	}
@@ -63,6 +65,7 @@ Zmocnitel tímto zmocňuje Zmocněnece, k tomu, aby ho zastupoval:
   <option value="1">Matriční doklady</option>
   <option value="2">Výpis z RT</option>
   <option value="3">Výpis z RT zahraničí</option>
+  <option value="3">Diplom</option>
 </select>
 
 <ul>
@@ -70,7 +73,7 @@ Zmocnitel tímto zmocňuje Zmocněnece, k tomu, aby ho zastupoval:
 </ul>
 
 
-Tato plná moc se uděluje na dobu určitou, a to do ...... .
+Tato plná moc se uděluje na dobu určitou, a to do <input type="text" size="15" placeholder="dátum"/>.
 
 Tato plná moc zaniká také doručením oznámení o odvolání této plné moci Zmocněnci.
 
