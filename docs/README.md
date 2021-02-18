@@ -1,3 +1,3 @@
-# Paraguay
+# Plna moc
 
-- [SK - version](https://paralelnapolis.github.io/tameMe/sk/)
+- [CZ - version](https://pavoltravnik.github.io/plnamoc/cz/)
