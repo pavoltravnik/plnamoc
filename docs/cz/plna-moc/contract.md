@@ -29,15 +29,15 @@ Zmocnitelem je fyzická osoba
 <input type="text" size="40" placeholder="Jméno a příjmení"/> 
 rozený/á <input type="text" size="20" placeholder="Rodné příjmení"/>
 
-občanství <input type="text" size="20" placeholder="občanství"/> 
+Občanství <input type="text" size="20" placeholder="občanství"/> 
 typ dokladu <input type="text" size="5" placeholder="typ"/> 
 číslo dokladu <input type="text" size="10" placeholder="typ"/>
 
-<input type="text" size="15" placeholder="Datum narození"/>
+Narozený: <input type="text" size="15" placeholder="Datum narození"/>
 
-<input type="text" size="15" placeholder="Rodné číslo"/>
+Rodné číslo: <input type="text" size="15" placeholder="Rodné číslo"/>
 
-<input type="text" size="40" placeholder="Adresa"/>
+Bydliště: <input type="text" size="40" placeholder="Adresa"/>
 
 <input type="text" size="40" placeholder="Město a PSČ"/>
 
@@ -48,11 +48,11 @@ Zmocněncem je fyzická osoba
 
 <input type="text" size="40" placeholder="Jméno a příjmení"/>
 
-<input type="text" size="15" placeholder="Datum narození"/>
+Narozený: <input type="text" size="15" placeholder="Datum narození"/>
 
-<input type="text" size="15" placeholder="Rodné číslo"/>
+Rodné číslo: <input type="text" size="15" placeholder="Rodné číslo"/>
 
-<input type="text" size="40" placeholder="Adresa"/>
+Bydliště: <input type="text" size="40" placeholder="Adresa"/>
 
 <input type="text" size="40" placeholder="Město a PSČ"/>
 
