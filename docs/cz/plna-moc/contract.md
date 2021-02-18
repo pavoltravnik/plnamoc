@@ -54,5 +54,7 @@ V ......, dne ...... .
 Zmocněnec
 
 
+## Poznámky
+
 <a name="https://www.zakonyprolidi.cz/cs/2000-301#p25-8">1</a>: Nutné úředně ověřit.
 
