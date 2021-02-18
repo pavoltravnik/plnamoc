@@ -83,10 +83,10 @@ Zmocněnec má zejména právo podávat žádosti, nahlížet do spisu, přebír
 
 
 
-V <input type="text" size="40" placeholder="mesto"/>,
-dne <input type="text" size="15" placeholder="dátum"/>.
+V <input type="text" size="40" placeholder="město"/>,
+dne <input type="text" size="15" placeholder="datum"/>.
 
-<br/><br/><input type="text" size="40" placeholder="Meno a priezvisko"/>
+<br/><br/><input type="text" size="40" placeholder="Jméno a příjmení"/>
 
 Zmocnitel
 
@@ -96,10 +96,10 @@ Zmocnitel
 Tuto plnou moc v plném rozsahu přijímám.
 
 
-V <input type="text" size="40" placeholder="mesto"/>,
-dne <input type="text" size="15" placeholder="dátum"/>.
+V <input type="text" size="40" placeholder="město"/>,
+dne <input type="text" size="15" placeholder="datum"/>.
 
-<br/><br/><input type="text" size="40" placeholder="Meno a priezvisko"/>
+<br/><br/><input type="text" size="40" placeholder="Jméno a příjmení"/>
 
 Zmocněnec
 
